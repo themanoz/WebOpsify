@@ -1,0 +1,68 @@
+/* Apply a reset to remove default margin and padding */
+html, body, div, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color for the body (content) */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a black background and white text color */
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+/* Style the logo */
+.logo {
+   position: relative;
+   left: auto;
+   bottom:10px;
+   disp
+}
+
+/* Style the navigation menu */
+nav {
+    flex: 1;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Add some spacing to the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('your-hero-background-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: black;
+}
+
+/* Style other sections as needed using similar approaches */
+.about-section, .tutorials-section, .community-section, .subscribe-section {
+    padding: 40px 0;
+}
